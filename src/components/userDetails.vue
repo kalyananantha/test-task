@@ -14,8 +14,6 @@
             <div class="reposData" v-for="(item,id) in userRepos" :key="id">
                 <ul>
                     <li class="reposName"><a :href="item.html_url">{{ item.name }}</a></li>
-                    <!-- <li class="watcherCounts"><img src="../assets/watcher.svg" />{{ item.watchers_count }}</li>
-                    <li class="starCounts"><img src="../assets/star.svg" />{{ item.stargazers_count }}</li> -->
                 </ul>
                 <div class="counts">
                     <div>

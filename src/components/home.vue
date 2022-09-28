@@ -80,7 +80,7 @@ export default {
   left: 0px;
   top: 0px;
   background: #54A3FF;
-  border-radius: 75px;
+  border-radius: 50%;
   display: inline-block;
   margin: 25px 20px;
 }
@@ -89,7 +89,7 @@ export default {
   padding: 20px;
   width: 100px;
   height: 100px;
-  border-radius: 30px;
+  border-radius: 50%;
 }
 
 .userName {
